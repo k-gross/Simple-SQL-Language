@@ -1,0 +1,73 @@
+CREATE 281class 3 string string bool emotion person Y/N
+INSERT INTO 281class 7 ROWS
+happy kyle true
+sad parth false
+something mason true
+mysterious andreas true
+shy ashton false
+talkative ilan true
+worried dave true
+PRINT FROM 281class 1 person WHERE Y/N = true
+INSERT INTO 281class 3 rows
+happy dawn true
+weird olivia false
+joyful alex true
+INSERT INTO 281class 5 rows
+clamish john false
+nervous juan true
+ethereal ben true
+inteligent steven false
+joyous erikson true
+PRINT FROM 281class 3 emotion person Y/N ALL
+GENERATE FOR 281class hash INDEX ON Y/N
+PRINT FROM 281class 1 person WHERE Y/N = true
+GENERATE FOR 281class hash INDEX ON emotion
+PRINT FROM 281class 3 Y/N emotion person WHERE Y/N = true
+GENERATE FOR 281class bst INDEX ON emotion
+PRINT FROM 281class 3 person Y/N emotion WHERE Y/N = false
+GENERATE FOR 281class bst INDEX ON person
+PRINT FROM 281class 2 emotion person WHERE Y/N = false
+REMOVE 281class
+CREATE 281class 3 string string bool emotion person Y/N
+INSERT INTO 281class 7 ROWS
+happy kyle true
+sad parth false
+something mason true
+mysterious andreas true
+shy ashton false
+talkative ilan true
+worried dave true
+PRINT FROM 281class 1 person WHERE Y/N = true
+INSERT INTO 281class 3 rows
+happy dawn true
+weird olivia false
+joyful alex true
+INSERT INTO 281class 5 rows
+clamish john false
+nervous juan true
+ethereal ben true
+inteligent steven false
+joyous erikson true
+CREATE 370class 3 string string bool feeling name yes/no
+INSERT INTO 370class 15 rows
+grumpy john true
+happy kyle false
+sad sophia true
+isolated calvo true
+lonely mason false
+thankful johnny true
+trusting madra true
+elated jeorgia false
+beckoning miller true
+joyful olivia false
+clamish alex true
+defensive dawn true
+elated dave false
+dismayed whiskeyjack true
+tearful ganoes true
+JOIN 281class AND 370class WHERE Y/N = yes/no AND PRINT 2 person 1 name 2
+GENERATE FOR 281class hash INDEX ON Y/N
+GENERATE FOR 370class bst INDEX ON yes/no
+JOIN 281class AND 370class WHERE person = name AND PRINT 2 person 1 name 2
+PRINT FROM 370class 3 yes/no feeling name ALL
+QUIT

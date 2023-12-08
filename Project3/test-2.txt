@@ -1,0 +1,21 @@
+#Awesome Spec Example!
+CREATE 281class 3 string string bool emotion person Y/N
+INSERT INTO 281class 8 ROWS
+happy Darden true
+stressed students false
+busy office_hours true
+stressed students true
+stressed Paoletti true
+happy Darden true
+happy Sith true
+victorious Sith true
+DELETE FROM blah WHERE person = Darden
+DELETE FROM 281class WHERE fakeColumn = Darden
+PRINT FROM fakeTable 2 person emotion WHERE Y/N = true
+PRINT FROM 281class 2 fakeCol emotion WHERE Y/N = true
+PRINT FROM 281class 2 person fakeCol WHERE Y/N = true
+INSERT INTO notReal 2 ROWS
+shit shit shit
+brown blue white
+PRINT FROM 281class 2 person emotion WHERE fake = false
+QUIT

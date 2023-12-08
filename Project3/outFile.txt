@@ -1,0 +1,72 @@
+% % New table 281class with column(s) emotion person Y/N created
+% New table cities with column(s) name state population area is_capital? created
+% New table pets with column(s) name likes_cats? likes_dogs? created
+% emotion person Y/N 
+Printed 0 matching rows from 281class
+% likes_cats? 
+Printed 0 matching rows from pets
+% Added 3 rows to 281class from position 0 to 2
+% is_capital? name population 
+Printed 0 matching rows from cities
+% emotion person 
+stressed Paoletti 
+happy Darden 
+sad Angstadt 
+Printed 3 matching rows from 281class
+% Created hash index for table cities on column population
+% Added 5 rows to cities from position 0 to 4
+% person 
+Paoletti 
+Darden 
+Angstadt 
+Printed 3 matching rows from 281class
+% population 
+864816 
+120782 
+453579 
+98111 
+2705000 
+Printed 5 matching rows from cities
+% population 
+864816 
+120782 
+453579 
+98111 
+2705000 
+Printed 5 matching rows from cities
+% Deleted 1 rows from cities
+% population 
+864816 
+120782 
+453579 
+98111 
+Printed 4 matching rows from cities
+% Created bst index for table cities on column name
+% name 
+San_Francisco 
+Ann_Arbor 
+Miami 
+Albany 
+Printed 4 matching rows from cities
+% population 
+98111 
+Printed 1 matching rows from cities
+% Added 3 rows to cities from position 4 to 6
+% name 
+Kalamazoo 
+Printed 1 matching rows from cities
+% Table 281class deleted
+% population is_capital? name 
+864816 false San_Francisco 
+120782 false Ann_Arbor 
+453579 false Miami 
+98111 true Albany 
+205670 true Kalamazoo 
+356789 false Tuscaloosa 
+23054 false South_bend 
+Printed 7 matching rows from cities
+% Table cities deleted
+% name likes_dogs? 
+Printed 0 matching rows from pets
+% Table pets deleted
+% Thanks for being silly!

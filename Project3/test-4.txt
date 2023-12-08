@@ -1,0 +1,33 @@
+#Awesome Spec Example!
+CREATE 281class 3 string string bool emotion person Y/N
+CREATE table2 3 int bool double number Y/N decimal
+INSERT INTO 281class 8 ROWS
+happy Darden true
+stressed students false
+busy office_hours true
+stressed students true
+stressed Paoletti true
+happy Darden true
+happy Sith true
+victorious Sith true
+INSERT INTO table2 5 rows
+6 false 0
+17 false 13.453
+-13 true -134.54326
+0 true 3435
+4352 true 13857.145
+DELETE FROM 281class WHERE person = Darden
+PRINT FROM 281class 2 person emotion WHERE Y/N = true
+PRINT FROM 281class 1 Y/N ALL
+PRINT FROM 281class 3 Y/N emotion person ALL
+PRINT FROM table2 1 number WHERE Y/N = true
+DELETE FROM table2 WHERE number = 17
+PRINT FROM table2 3 number Y/N decimal WHERE number = 17
+Blah
+CREATE pets 3 string bool bool Name likes_cats? likes_dogs?
+INSERT INTO 281class 2 ROWS
+Sith Name true
+Paoletti Name false
+REMOVE pets
+REMOVE 281class
+QUIT

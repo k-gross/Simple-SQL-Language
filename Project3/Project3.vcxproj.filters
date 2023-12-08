@@ -1,0 +1,112 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="TableEntry.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="getopt.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="silly.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="cp1-in.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="cp1-out.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="cp2-in.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="cp2-out.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="cp3-in.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="cp3-out.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="Error_messages.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="long-quiet-input.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="long-quiet-output.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="Project_identifier.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="short-input.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="short-output.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="spec-input.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="spec-output.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="outFile.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="test-1.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="test-2.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="test-4.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="test-5.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="test-6.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="test-7.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="test-8.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="test-9.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Makefile">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Files-README.md">
+      <Filter>Resource Files</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="TableEntry.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
